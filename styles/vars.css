@@ -1,0 +1,10 @@
+:root {
+  /* Colors */
+  --text-base: #848196;
+  --text-base-light: #fff;
+  --text-sub: #5510a7;
+  --text-button: #2674f2;
+}
+
+@media (max-widh: 450px) {
+}

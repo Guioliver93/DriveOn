@@ -1,0 +1,67 @@
+header {
+  margin: 47px 0px 0 42px;
+}
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-base);
+  margin: 20px 30px;
+  cursor: pointer;
+}
+.menu:hover {
+  color: var(--text-sub);
+}
+
+.button-header {
+  background: var(--text-base-light);
+  border: 1px solid var(--text-button);
+  border-radius: 6px;
+  width: 124px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--text-button);
+  cursor: pointer;
+}
+.button-header:hover {
+  background: var(--text-button);
+  color: var(--text-base-light);
+}
+
+.container-menu {
+  display: flex;
+  align-items: center;
+  margin: 30px 30px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-menu img {
+  margin-right: 30px;
+}
+
+.nav-login {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: var(--text-sub);
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login a {
+  font-weight: 700;
+}

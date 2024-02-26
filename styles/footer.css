@@ -1,0 +1,67 @@
+footer {
+  background-image: url(../assets/fundo-footer-teste-programador.png.jpg);
+  background-repeat: round;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+li:hover {
+  color: var(--text-button);
+}
+
+.box-footer {
+  color: var(--text-base-light);
+  display: flex;
+  padding-bottom: 5rem;
+  margin: 5rem 10rem 2rem 10rem;
+  gap: 20rem;
+  border-bottom: 1px solid #848196;
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-right: 10rem;
+}
+
+.menu-principal h2 {
+  font-size: 2rem;
+}
+
+.menu-principal ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-principal li {
+  margin-bottom: 3rem;
+}
+
+.menu-about,
+.menu-product {
+  line-height: 3rem;
+}
+
+.soial-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
+.soial-media h5 {
+  color: var(--text-base-light);
+  font-size: 1rem;
+}
+
+.logos-social {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}

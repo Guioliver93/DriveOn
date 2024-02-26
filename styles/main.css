@@ -1,0 +1,233 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0px 0 5rem;
+}
+
+.img-home img {
+  width: 50rem;
+}
+
+.title-home {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  color: var(--text-sub);
+  line-height: 4rem;
+}
+
+.text-home {
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: var(--text-base);
+}
+
+.button-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  padding: 1rem;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #5579f1, #24e0fb);
+  font-size: 1.2rem;
+  color: var(--text-base-light);
+  cursor: pointer;
+}
+
+.button-home:hover {
+  background: black;
+}
+
+.line-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container-box {
+  display: flex;
+  margin: 5rem 0 10rem 0;
+  gap: 15px;
+  justify-content: center;
+}
+
+.subtitle-started {
+  display: flex;
+  justify-content: center;
+  color: var(--text-sub);
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.started-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.started-card h4 {
+  color: var(--text-sub);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.started-card p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-base);
+}
+
+.container-car {
+  margin-top: 150px;
+  display: flex;
+}
+
+.image-car img {
+  width: 600px;
+  margin-top: -285px;
+}
+
+.text-car {
+  color: var(--text-base);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.box-car a {
+  color: var(--text-button);
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+
+.box-car a:hover {
+  color: #24e0fb;
+}
+
+.container-safety {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-safety {
+  width: 600px;
+  margin-top: -285px;
+}
+
+.box-safety {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-safety h2 {
+  color: var(--text-sub);
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+
+.box-safety p {
+  color: var(--text-base);
+  font-size: 1.2rem;
+}
+.box-safety p span {
+  color: var(--text-sub);
+  font-weight: 600;
+}
+
+.line-safety {
+  width: 10rem;
+  margin-bottom: 50px;
+}
+
+.box-safety a {
+  color: var(--text-button);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+.line-text-safety {
+  width: 3rem;
+  margin-left: 22rem;
+}
+
+#downloads {
+  background-image: url(../assets/img-fundo-4-teste-programador.png);
+  background-repeat: round;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.box-downloads {
+  margin-top: 20rem;
+}
+
+.box-downloads h2 {
+  color: var(--text-sub);
+  font-size: 2.5rem;
+}
+
+.store-apps {
+  display: flex;
+  gap: 3rem;
+}
+
+.apps {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  margin-top: 2rem;
+  background-color: #000;
+  color: var(--text-base-light);
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.apps h5 {
+  font-size: 0.7rem;
+}
+
+.apps p {
+  font-size: 1rem;
+}
+.apps img {
+  width: 2rem;
+}
+
+#register {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.box-register {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.title-register h3 {
+  color: var(--text-sub);
+  font-size: 2rem;
+  font-weight: 500;
+  word-spacing: 1rem;
+}
+.title-register img {
+  width: 6rem;
+}
+.arrow-register img {
+  width: 3rem;
+}
